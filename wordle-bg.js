@@ -7689,10 +7689,16 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
     }
     var Ra = new Date(2021, 12, 20, 0, 0, 0, 0);
 
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+    }
+
     function $a(e, a) {
-        var s = new Date(e),
-            t = new Date(a).setHours(0, 0, 0, 0) - s.setHours(0, 0, 0, 0);
-        return Math.floor(t / 864e5)
+        // var s = new Date(e),
+        //     t = new Date(a).setHours(0, 0, 0, 0) - s.setHours(0, 0, 0, 0);
+        // return Math.floor(t / 864e5)
+
+        return getRandomInt(Aa.length);
     }
 
     function Pa(e) {
