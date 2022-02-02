@@ -844,7 +844,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
         }
         return e
     }))),
-        wa = "gameState",
+        wa = "gameState-turbo",
         xa = {
             boardState: null,
             evaluations: null,
@@ -7728,7 +7728,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
         }
         return a
     }
-    var Wa = "statistics",
+    var Wa = "statistics-turbo",
         Ya = "fail",
         Ja = {
             currentStreak: 0,
